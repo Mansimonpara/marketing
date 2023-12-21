@@ -1,0 +1,61 @@
+.footer{
+    background: #242425;
+}
+.imglogo{
+    margin-top: 2%;
+    height: 8vh;
+    
+    width: 50%;
+}
+
+.bottom{
+    justify-content: space-around;
+    display: flex;
+    /* padding: 0 2rem; */
+    margin-top: 1rem;
+    
+}
+
+.data{
+    gap: 14rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.data h4{
+    font-size: 1.5rem;
+}
+.data p{
+    margin: 1%;
+}
+
+@media screen and (max-width: 850px) {
+    .imglogo{
+        width: 70%;
+        height: 10vh;
+    }
+    
+    
+    .footer{
+        padding: 2rem 2rem;
+    }
+    .bottom div{
+        width: 50%;
+    }
+    .bottom{
+        
+        flex-direction: column;
+    }
+    .data{
+        gap: 1rem;
+       padding-bottom: 10px;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+

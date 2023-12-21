@@ -1,0 +1,17 @@
+.about{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+.about h1{
+    padding-bottom: 1rem;
+    color: #FFCC33;
+}
+.about p{
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 850px){
+    .about {
+        margin: 4rem 2rem;
+    }
+}
